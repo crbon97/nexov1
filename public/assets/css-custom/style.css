@@ -1,0 +1,515 @@
+
+@font-face {
+    font-family: "TTNorms-Medium";
+    src: url("../fonts/TTNorms-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "TTNorms-Bold";
+    src: url("../fonts/TTNorms-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "TTNorms-Light";
+    src: url("../fonts/TTNorms-Light.otf") format("opentype");
+}
+
+body{
+	background-color: #f9f9fb;
+	font-family: TTNorms-Medium;
+}
+section#wp_repayment{
+    display: none;
+
+}
+/*//format*/
+
+.container{
+    width: inherit;
+}
+ .main-menu{
+      position: fixed;
+	  top: 0;
+	   text-align: center;
+	  left: -50%;
+    top: 0;
+    left: 50%;
+    width: 50%;
+	/*height: 27%;*/
+    text-align: center;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-animation: fade-in .3s ease-out;
+    animation: fade-in .3s ease-out;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.main-menu a{
+	display: inline-block;
+    height: 100%;
+    margin: 0 15px;
+    line-height: 93px;
+    font-size: 18px;
+   color: white;
+   text-decoration: none;
+}
+.main-menu a.active{
+	color:#39CCCC;
+	}
+
+ .main-menu a:hover{
+	color: #20bcff;
+}
+.main-menu .fa {
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+/*end-mainmenu*/
+/*
+begin-tutorial-card
+*/
+
+.tutorial-title h3{
+	padding: 0 50px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2853c3;
+    text-align: center;
+    background-color: white;
+}
+
+/*
+end-tutorial-card
+*/
+/*
+
+
+/*
+begin-tutorial-card
+*/
+.box-part span{
+    font-size:15px;
+}
+.box-part a{
+  text-decoration:none; 
+  color: #0062cc;
+  border-bottom:2px solid #0062cc;
+}
+
+
+.box-part{
+    background:#FFF;
+    border-radius:0;
+   padding: 20px 30px;
+   height: 200px;
+    margin:30px 0px;
+    border: #e4e7ec solid 0.5px;
+}
+
+.box-part .text span{
+        margin: 0;
+    font-size: 14px;
+    color: #71869a;
+    
+}
+
+.box-part .fa{
+     color:#4183D7;
+}
+.tutorial-title h3{
+	padding: 0 50px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2853c3;
+    text-align: center;
+    background-color: white;
+
+}
+.box-part h5{
+
+    font-size: 15px;
+    padding: 10px 0;
+    font-weight: 600;
+    color: #353c43;
+}
+
+
+/*
+end-tutorial-card
+*/
+
+section.info-coin{
+    width: 100%;
+    background-color: white;
+
+}
+
+.loanw{
+        font-size: 36px;
+    color: #20bcff;
+}
+
+
+/*
+begin-bank-box
+*/
+.menu{
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: stretch;
+    margin: 0 0 40px;
+    padding: 0 1px;
+}
+.menu a{
+    cursor: pointer;
+    flex: 1 1 auto;
+    box-sizing: border-box;
+    position: relative;
+    margin-right: 15px;
+    padding: 25px 25px 25px 85px;
+    width: 31%;
+    max-width: 30%;
+    box-shadow: 0 4px 4px 0 rgba(24,28,32,.05), 0 0 2px 0 #b8c1c9, 0 1px 0 0 #d6dce1;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.menu a:hover{
+  box-shadow: 0 0 11px #20bcff; 
+}
+.menu a:hover strong{
+ color: #20bcff;
+
+}
+.menu a strong{
+    display: block;
+    word-wrap: break-word;
+    font-size: 19px;
+    font-weight: 700;
+    color: #475058d4;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.menu a em{
+        font-style: normal;
+    font-size: 14px;
+    color: #758698;
+}
+.menu a i{
+    position: absolute;
+    font-weight: 600;
+    left: 30px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+        font-size: 40px;
+    color: #20bcff;
+}
+
+/*
+end-bank-box
+*/
+/*
+begin-table
+*/
+.table-bordered{
+    text-align: right;
+}
+.table-bordered thead{
+    text-align: right;
+    }
+table.table {
+    width: 90%;
+    margin: 0 auto;
+}
+ table.table th {
+    background-color: #f9f9fb;
+    font-weight: 700;
+}
+table.table td{
+    font-family: TTNorms-Light;
+    font-weight: 600;
+}
+
+table.table td, table.table th {
+    padding: 15px;
+     border: 1px solid #c8ccd2;
+    font-size: 15px;
+    text-align: left;
+}
+table.table.table-bordered.modec th {
+    font-size: 13px;
+}
+ table.table strong{
+     font-family: TTNorms-Bold;
+      margin-left: 8px
+ }
+  table.table .alt-color{
+    background-color: #e2ebef;
+ }
+/*
+end-table
+*/
+/*
+begin-transactions
+*/
+.filter{
+     font-family: "TTNorms-Medium";
+     width: 80%;
+     margin: 0 auto;
+
+}
+.filter ol{
+        margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.filter ol li{
+       float: left;
+    position: relative;
+    padding: 0 20px 10px 0;
+    text-decoration: none;
+}
+.filter ol li label{
+        display: block;
+    position: relative;
+    font-size: 14px;
+}
+
+.filter label>span {
+    margin-right: 10px;
+}
+.filter .DayPickerInput {
+    display: inline-block;
+}
+ .filter input, select {
+    height: 39px;
+}
+ .filter select {
+    padding: 0px 12px 0px 28px;
+    font-size: 16px;
+}
+
+.filter input, select, textarea {
+    width: 100%;
+    padding: 6px 10px;
+    background-color: #fff;
+  
+    background-image: none;
+    box-shadow: none;
+    border: 1px solid #d6dce1;
+  
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    -webkit-transition: border-color .3s ease-out;
+    transition: border-color .3s ease-out;
+}
+/*
+end-transactions
+*/
+/*
+begin-Deposit_model
+*/
+.method{
+           padding: 25px 5px;
+    margin-bottom: 20px;
+    border: 1px solid #e4e7ec;
+    border-radius: 3px;
+    text-align: center;
+}
+.method .deposit-limit{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.method .deposit-limit img{
+    margin: 1px -31px 15px 1px;
+}
+.method .deposit-limit input{
+    height: 42px;
+    padding: 0px 0px 0px 14px;
+    border: none;
+    border-radius: 7px;
+    border: gray solid 0.5px;
+    width: 77%;
+    }
+    .method .deposit-limit .with-tooltip {
+        flex-grow: 1;
+    }
+/*
+end-Deposit_model
+*/
+
+/*
+begin-repayModel
+*/
+#repayModel .switcher {
+    overflow: hidden;
+    padding: 5px 0 0 5px;
+    box-sizing: border-box;
+    border: 1px solid #d6dce1;
+    border-color: var(--color-stroke-2);
+    border-radius: 3px;
+}
+#repayModel .switcher a {
+      float: left;
+    width: 20%;
+    height: 50px;
+    margin: 0;
+    padding: 0 5px 5px 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#repayModel .switcher a.current span {
+    background-color: #20bcff;
+    box-shadow: inset 0 2px 2px 0 hsla(0,0%,100%,.3), inset 0 1px 0 0 rgba(22,170,234,.5);
+    color: #fff;
+}
+#repayModel .switcher a span{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5fafc;
+
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    color: #3d434a;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+/*
+end-repayModel
+*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+/*
+begin-deposit-wallet
+*/
+button.m-btn.btn.btn-copy.js-tooltip.js-copy{
+    background-color: #20bcff!important;
+    color: #fff;
+    border-radius: 0px 10px 10px 0px;
+}
+button.m-btn.btn.btn-copy.js-tooltip.js-copy i{
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 200;
+    
+}
+input#wallet_coin {
+    background-color: #f5fafc;
+    font-size: 18px;
+    padding: 13px;
+}
+
+.deposit-limit {
+    position: relative;
+    color: #aaa;
+    font-size: 16px;
+  }
+  
+  .deposit-limit input {
+    height: 32px;
+    background: #fcfcfc;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+  }
+  
+  .deposit-limit input { text-indent: 32px;}
+  .deposit-limit .fa-search { 
+    position: absolute;
+    top: 52px;
+    left: 50px;
+  }
+/*
+end-deposit-wallet
+*/
+@media screen and (min-width: 1024px) {
+        .button-login--header {
+            margin-top: 41%;
+          background :#9816f4;
+          font-weight: 600;
+        }
+          .button-login--header:hover {
+            border: red solid 2px;
+          background :none;
+          color: black;
+        }
+}
+@media screen and (max-width: 1024px) {
+        .button-login--header {
+            margin-top: 10%;
+          background :#9816f4;
+          font-weight: 600;
+        }
+}
+@media screen and (max-width: 1024px) {
+    .box-part{
+        height: 300px;
+    }
+
+     .main-menu{
+z-index: 22;
+ }
+     .main-menu a{
+        line-height: 70px;
+      
+    }
+}
+@media only screen and (max-width: 1000px){
+.menu a {
+    width: inherit;
+    max-width: inherit; 
+    }
+  
+}
+@media screen and (max-width: 768px) {
+    /*begin-transaction*/
+    
+    .filter ol li {
+            float: inherit;
+    }
+     /*end-transaction*/
+  .box-part{
+        height: 200px;
+    }
+
+}
+@media screen and (max-width: 650px) {
+
+
+    .main-menu span{
+        display: none;
+    }
+    .main-menu .fa {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 425px){
+ .menu a:nth-child(2) {
+    margin-top: 10px;
+    }
+}
